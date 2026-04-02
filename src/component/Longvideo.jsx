@@ -66,7 +66,7 @@ const Longvideo = () => {
             {/* Video 1 — starts small, expands fullscreen */}
             <video
                 id='video1'
-                src="/open.mp4"
+                src="/open.webm"
                 className="absolute top-0 left-0 w-full h-screen object-cover z-20"
                 style={{ opacity: 1 }}
                 autoPlay loop muted preload='auto'
@@ -86,7 +86,7 @@ const Longvideo = () => {
             {/* Video 2 — hidden initially, fades in after video1 leaves */}
             <video
                 id='video2'
-                src="/intro.mp4"
+                src="/intro.webm"
                 className="absolute top-0 left-0 w-full h-screen object-cover z-10"
                 style={{ opacity: 0 }}
                 autoPlay loop muted preload='auto'
@@ -106,7 +106,7 @@ const Longvideo = () => {
                 id='text4'
                 className="absolute top-0 left-0 h-screen flex flex-col gap-5 text-center justify-center w-full  px-4 z-35 opacity-0"
             >
-                <center><img src="/public/action_thumb.png" alt="" className='h-64 w-64 ' /></center>
+                <center><img src="/action_thumb.png" alt="" className='h-64 w-64 ' /></center>
                 <h1 className="text-2xl md:text-3xl lg:text-4xl">The Rise of a Great Destiny</h1>
                 <span>A devastating ambush in the deep of night by their sworn enemies the Black Bears leaves members of the Greymanes dead or scattered across the continent. Kliff – having lost his Greymane comrades, his family in all but name – is determined to reunite with the survivors, rebuild the fallen Greymanes, and reclaim what was lost. But on a journey where alliances are forged, dangers abound, and mysterious factions are uncovered, Kliff will come to realize that an unprecedented threat and a destiny greater than he imagined await him.</span>
             </div>
