@@ -75,7 +75,7 @@ const Reclaim = () => {
             >
                 {/* Behind text */}
                 <img
-                    src="/public/reclaim1.png"
+                    src="/reclaim1.png"
                     id='reimg1'
                     alt=""
                     className="h-[40vh] object-contain self-end opacity-0"
@@ -84,7 +84,7 @@ const Reclaim = () => {
 
                 {/* In front of text */}
                 <img
-                    src="/public/reclaim2.png"
+                    src="/reclaim2.png"
                     id='reimg2'
                     alt=""
                     className="h-[40vh] object-contain self-start opacity-0"
@@ -93,7 +93,7 @@ const Reclaim = () => {
 
                 {/* Behind text */}
                 <img
-                    src="/public/reclaim3.png"
+                    src="/reclaim3.png"
                     id='reimg3'
                     alt=""
                     className="h-[40vh] object-contain self-end opacity-0"
