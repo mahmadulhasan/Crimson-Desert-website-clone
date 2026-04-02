@@ -49,7 +49,7 @@ const Combat = () => {
   return (
     <section id='combatsec' className='relative w-full h-screen flex items-center justify-center mt-[50vh]'>
 
-        <video id='combatvideo' src="/public/combat1.mp4"  autoPlay loop muted className="absolute top-0 left-0 w-full h-screen object-cover"></video>
+        <video id='combatvideo' src="/combat1.webm"  autoPlay loop muted className="absolute top-0 left-0 w-full h-screen object-cover"></video>
 
         <div
                 id='combattext'
