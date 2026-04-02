@@ -27,7 +27,7 @@ const App = () => {
 
       {/* Scroll Section */}
       <div className="w-full pt-30 px-5 bg-gradient-to-b from-black to-white/5">
-        <img src="/public/footername.png" alt="" className="w-full opacity-10" />
+        <img src="/footername.png" alt="" className="w-full opacity-10" />
       </div>
 
     </main>
