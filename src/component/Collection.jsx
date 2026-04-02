@@ -5,7 +5,7 @@ const Collection = () => {
     <section className='collectionsec relative min-h-[50vh] w-full flex flex-col lg:flex-row items-center justify-between gap-5 px-10 py-20 bg-gradient-to-b from-black to-white/5' id='collection'>
 
         <div className="w-full lg:w-1/4 flex flex-col gap-5 items-center justify-center h-[30vh] relative">
-            <img src="/public/collectionbg.jpg" alt="" className="absolute w-full h-full z-05" />
+            <img src="/collectionbg.jpg" alt="" className="absolute w-full h-full z-05" />
             <div className="w-full h-full z-10 absolute bg-gradient-to-b from-blue/60 to-transparent"></div>
 
             <img src="/collection1.png" alt="" className='z-20 h-[50%] w-fit' />
