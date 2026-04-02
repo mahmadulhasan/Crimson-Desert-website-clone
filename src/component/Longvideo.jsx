@@ -66,7 +66,7 @@ const Longvideo = () => {
             {/* Video 1 — starts small, expands fullscreen */}
             <video
                 id='video1'
-                src="/public/open.webm"
+                src="/public/open.mp4"
                 className="absolute top-0 left-0 w-full h-screen object-cover z-20"
                 style={{ opacity: 1 }}
                 autoPlay loop muted
@@ -86,7 +86,7 @@ const Longvideo = () => {
             {/* Video 2 — hidden initially, fades in after video1 leaves */}
             <video
                 id='video2'
-                src="/public/intro.webm"
+                src="/public/intro.mp4"
                 className="absolute top-0 left-0 w-full h-screen object-cover z-10"
                 style={{ opacity: 0 }}
                 autoPlay loop muted
